@@ -1,0 +1,120 @@
+body {
+  background-color: #172b4d;
+}
+
+input {
+  background-color: #fff !important;
+  border-radius: 44px !important;
+  padding: 0px 15px !important;
+  width: 90% !important;
+}
+
+input:focus {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+label {
+  display: block;
+  color: #fff !important;
+  font-size: 1rem !important;
+}
+
+.message-btn {
+  background-color: #3f51b5;
+  padding: 15px 50px;
+  color: white;
+  font-size: 16px;
+  border-radius: 44px;
+  cursor: pointer;
+  border: 1px solid #3f51b5;
+  margin-bottom: 40px;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+}
+
+.message-btn:hover {
+  background-color: #fff;
+  transform: translate(0px, -2px);
+  color: #5364c3;
+  box-shadow: 0px 15px 30px -12px rgba(255, 255, 255, 0.2);
+}
+
+.message-btn:focus {
+  background-color: #32408f;
+}
+
+.message-btn:focus:hover {
+  color: white;
+}
+
+.message-btn:disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: default;
+}
+
+.message-btn:disabled:hover {
+  box-shadow: none;
+  transform: translate(0, 0);
+}
+
+.data-container {
+  background-color: #1f3a67;
+  border-radius: 11px;
+  margin-top: 40px;
+  padding: 10px;
+
+}
+
+.card {
+  background-color: #274881 !important;
+  color: white;
+}
+
+.card-title {
+  font-weight: 500 !important;
+  text-align: center;
+}
+
+.card-data {
+  display: flex;
+  justify-content: space-around;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-weight: 700;
+  padding: 5px 9px;
+  cursor: pointer;
+  position: absolute;
+  top: -12px;
+  right: -12px;
+}
+
+.delete-btn:focus {
+  background-color: #e74c3c;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+  opacity: 1;
+  position: relative;
+  width: 20px !important;
+  height: 20px;
+}
+
+.container-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container-checkbox  .description
+{
+  margin-left: 10px;
+}
