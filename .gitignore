@@ -20,4 +20,4 @@ yarn-error.log*
 node_modules
 
 # ide
-./idea/
+.idea/
